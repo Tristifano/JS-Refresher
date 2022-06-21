@@ -55,7 +55,7 @@ age = 31
 const birthyear = 1991
 // birthyear =  1990
 
-// const job; 
+// const job;
 
 var job = 'programmer'
 job = 'teacher'
@@ -308,27 +308,37 @@ console.log(now - 1991 > now - 2018)
 //     console.log('The Koalas have a higher average')
 // }
 
-const day = 'monday'
+// const day = 'monday'
 
-switch (day) {
-    case 'monday':
-        console.log('Plan course structure')
-        console.log('Go to coding meetup')
-        break
-    case 'tuesday':
-        console.log('Prepare theory videos')
-        break
-    case 'wednesday':
-    case 'thursday':
-        console.log('Write code examples')
-        break
-    case 'friday':
-        console.log('Record videos')
-        break
-    case 'saturday':
-    case 'sunday':
-        console.log('Enjoy the weekned :D')
-        break
-    default:
-        console.log('Not a valid day!')
+// switch (day) {
+//     case 'monday':
+//         console.log('Plan course structure')
+//         console.log('Go to coding meetup')
+//         break
+//     case 'tuesday':
+//         console.log('Prepare theory videos')
+//         break
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples')
+//         break
+//     case 'friday':
+//         console.log('Record videos')
+//         break
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy the weekned :D')
+//         break
+//     default:
+//         console.log('Not a valid day!')
+// }
+
+3 + 4 //Expression
+1991 //Expression
+true && false && !false //Expression
+
+if (23 > 10) {
+    const str = '23 is bigger'
 }
+const me = 'Jonas'
+console.log(`I'm ${2037 - 1991} years old ${me}`)
