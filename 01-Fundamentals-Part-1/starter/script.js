@@ -135,13 +135,34 @@ console.log(now - 1991 > now - 2018)
 // const markHigherBMI = bmiMark > bmiJohn;
 // console.log(markHigherBMI)
 
-const massMark = 95
-const heightMark = 1.88
-const massJohn = 85
-const heightJohn = 1.76
+// const massMark = 95
+// const heightMark = 1.88
+// const massJohn = 85
+// const heightJohn = 1.76
 
-const bmiMark = massMark / heightMark ** 2;
-const bmiJohn = massJohn / heightJohn ** 2;
+// const bmiMark = massMark / heightMark ** 2;
+// const bmiJohn = massJohn / heightJohn ** 2;
 
-const markHigherBMI = bmiMark > bmiJohn;
-console.log(markHigherBMI)
+// const markHigherBMI = bmiMark > bmiJohn;
+// console.log(markHigherBMI)
+
+const firstName = 'Jonas'
+const job = 'teacher'
+const birthYear = 1991
+const year = 2037
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!'
+console.log(jonas)
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
+console.log(jonasNew)
+
+console.log(`Just a regular string...`)
+
+console.log(`String with \n\
+multiple \n\
+lines`)
+
+console.log(`String with 
+multiple 
+lines`)
