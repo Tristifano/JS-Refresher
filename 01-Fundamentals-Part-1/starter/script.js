@@ -167,22 +167,36 @@ console.log(now - 1991 > now - 2018)
 // multiple 
 // lines`)
 
-const age = 15
-const isOldEnough = age >= 18
+// const age = 15
+// const isOldEnough = age >= 18
 
-if (isOldEnough) {
-    console.log('Sarah start driving license 🚗')
+// if (isOldEnough) {
+//     console.log('Sarah start driving license 🚗')
+// } else {
+//     const yearsLeft = 18 - 15
+//     console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
+// }
+
+// const birthYear = 2012
+
+// let century
+// if (birthYear <= 2000) {
+//     century = 20
+// } else {
+//     century = 21
+// }
+// console.log(century)
+
+const massMark = 78
+const heightMark = 1.69
+const massJohn = 92
+const heightJohn = 1.95
+
+const bmiMark = massMark / heightMark ** 2;
+const bmiJohn = massJohn / heightJohn ** 2;
+
+if (bmiMark > bmiJohn) {
+    console.log(`Mark's BMI (${bmiMark.toFixed(1)}) is higher than John's (${bmiJohn.toFixed(1)})!`)
 } else {
-    const yearsLeft = 18 - 15
-    console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
+    console.log(`John's BMI (${bmiJohn.toFixed(1)}) is higher than Mark's (${bmiMark.toFixed(1)})!`)
 }
-
-const birthYear = 2012
-
-let century
-if (birthYear <= 2000) {
-    century = 20
-} else {
-    century = 21
-}
-console.log(century)
