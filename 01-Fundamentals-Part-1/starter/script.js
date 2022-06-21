@@ -296,14 +296,39 @@ console.log(now - 1991 > now - 2018)
 // const averageKoalas = (88 + 91 + 110) / 3
 // const averageDolphins = (97 + 112 + 101) / 3
 // const averageKoalas = (109 + 95 + 123) / 3
-const averageDolphins = (97 + 112 + 101) / 3
-const averageKoalas = (109 + 95 + 106) / 3
+// const averageDolphins = (97 + 112 + 101) / 3
+// const averageKoalas = (109 + 95 + 106) / 3
 
-console.log(averageDolphins, averageKoalas)
-if (averageDolphins === averageKoalas) {
-    console.log('They have the same average score')
-} else if (averageDolphins > averageKoalas) {
-    console.log('The Dolphins have a higher average')
-} else {
-    console.log('The Koalas have a higher average')
+// console.log(averageDolphins, averageKoalas)
+// if (averageDolphins === averageKoalas) {
+//     console.log('They have the same average score')
+// } else if (averageDolphins > averageKoalas) {
+//     console.log('The Dolphins have a higher average')
+// } else {
+//     console.log('The Koalas have a higher average')
+// }
+
+const day = 'monday'
+
+switch (day) {
+    case 'monday':
+        console.log('Plan course structure')
+        console.log('Go to coding meetup')
+        break
+    case 'tuesday':
+        console.log('Prepare theory videos')
+        break
+    case 'wednesday':
+    case 'thursday':
+        console.log('Write code examples')
+        break
+    case 'friday':
+        console.log('Record videos')
+        break
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy the weekned :D')
+        break
+    default:
+        console.log('Not a valid day!')
 }
