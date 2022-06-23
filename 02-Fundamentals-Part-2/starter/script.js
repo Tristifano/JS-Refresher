@@ -252,32 +252,60 @@ Apply this to the team's average scores 😉 GOOD LUCK 😀
 
 // console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`)
 
-const jonas = {
-    firstName: 'Jonas',
-    lastName: 'Schedtmann',
-    birthYeah: 1991,
-    job: 'teacher',
-    friends: ['Michael', 'Peter', 'Steven'],
-    hasDriversLicense: true,
-    // calcAge: function (birthYeah) {
-    //     return 2037 - birthYeah
-    // }
-    calcAge: function () {
-        this.age = 2037 - this.birthYeah
-        return this.age
-    },
-    getSummary: function () {
-        return `${this.firstName} is a ${this.calcAge()} year old teacher, and ${jonas.hasDriversLicense ? 'he has a drivers license' : 'he does not have a drivers license'}`
-    }
-}
+// const jonas = {
+//     firstName: 'Jonas',
+//     lastName: 'Schedtmann',
+//     birthYeah: 1991,
+//     job: 'teacher',
+//     friends: ['Michael', 'Peter', 'Steven'],
+//     hasDriversLicense: true,
+//     // calcAge: function (birthYeah) {
+//     //     return 2037 - birthYeah
+//     // }
+//     calcAge: function () {
+//         this.age = 2037 - this.birthYeah
+//         return this.age
+//     },
+//     getSummary: function () {
+//         return `${this.firstName} is a ${this.calcAge()} year old teacher, and ${jonas.hasDriversLicense ? 'he has a drivers license' : 'he does not have a drivers license'}`
+//     }
+// }
 
-console.log(jonas.calcAge())
+// console.log(jonas.calcAge())
 
-console.log(jonas.age)
-console.log(jonas.age)
-console.log(jonas.age)
+// console.log(jonas.age)
+// console.log(jonas.age)
+// console.log(jonas.age)
 
-// Challenge
-// Jonas is a 46 year old teacher, and he has a driver's license"
+// // Challenge
+// // Jonas is a 46 year old teacher, and he has a driver's license"
 
-console.log(jonas.getSummary())
+// console.log(jonas.getSummary())
+
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//         this.bmi = this.mass / (this.height ** 2)
+//         return this.bmi
+//     }
+// }
+
+// const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//         this.bmi = this.mass / (this.height ** 2)
+//         return this.bmi
+//     }
+// }
+
+// const compareBMIs = () => {
+//     john.calcBMI()
+//     mark.calcBMI()
+//     john.bmi > mark.bmi ? console.log(`John's BMI (${john.bmi.toFixed(1)}) is higher than Mark's BMI (${mark.bmi.toFixed(1)})!`) : console.log(`Mark's BMI (${mark.bmi.toFixed(1)}) is higher than John's BMI (${john.bmi.toFixed(1)})!`)
+// }
+
+// compareBMIs()
